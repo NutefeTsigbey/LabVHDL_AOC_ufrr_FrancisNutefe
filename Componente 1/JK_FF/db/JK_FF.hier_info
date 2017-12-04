@@ -1,0 +1,12 @@
+|JK_FF
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+CLOCK => TMP.CLK
+Q <= TMP.DB_MAX_OUTPUT_PORT_TYPE
+QB <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
