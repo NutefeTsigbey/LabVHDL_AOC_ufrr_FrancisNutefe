@@ -1,0 +1,464 @@
+$comment
+	File created using the following command:
+		vcd file maq_est.msim.vcd -direction
+$end
+$date
+	Tue Dec 05 23:48:04 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module maq_est_vhd_vec_tst $end
+$var wire 1 ! ck $end
+$var wire 1 " iniciar $end
+$var wire 1 # P $end
+$var wire 1 $ R $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var wire 1 ( devoe $end
+$var wire 1 ) devclrn $end
+$var wire 1 * devpor $end
+$var wire 1 + ww_devoe $end
+$var wire 1 , ww_devclrn $end
+$var wire 1 - ww_devpor $end
+$var wire 1 . ww_ck $end
+$var wire 1 / ww_P $end
+$var wire 1 0 ww_iniciar $end
+$var wire 1 1 ww_R $end
+$var wire 1 2 \R~output_o\ $end
+$var wire 1 3 \ck~input_o\ $end
+$var wire 1 4 \P~input_o\ $end
+$var wire 1 5 \iniciar~input_o\ $end
+$var wire 1 6 \Selector0~0_combout\ $end
+$var wire 1 7 \estado.caso_a~q\ $end
+$var wire 1 8 \Selector1~0_combout\ $end
+$var wire 1 9 \estado.caso_b~q\ $end
+$var wire 1 : \estado.caso_c~0_combout\ $end
+$var wire 1 ; \estado.caso_c~q\ $end
+$var wire 1 < \Selector3~0_combout\ $end
+$var wire 1 = \estado.caso_d~q\ $end
+$var wire 1 > \ALT_INV_iniciar~input_o\ $end
+$var wire 1 ? \ALT_INV_P~input_o\ $end
+$var wire 1 @ \ALT_INV_estado.caso_a~q\ $end
+$var wire 1 A \ALT_INV_estado.caso_b~q\ $end
+$var wire 1 B \ALT_INV_estado.caso_c~q\ $end
+$var wire 1 C \ALT_INV_estado.caso_d~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+1?
+1@
+1A
+1B
+1C
+$end
+#500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#1000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#1500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#2000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#2500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#3000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#3500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#4000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#4500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#5000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#5500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#6000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#6500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#7000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#7500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#8000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#8500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#9000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#9500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#10000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#10500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#11000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#11500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#12000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#12500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#13000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#13500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#14000000
+0!
+0#
+0"
+0.
+0/
+00
+05
+04
+03
+1?
+1>
+06
+08
+#14500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#15000000
+0!
+0#
+1"
+0.
+0/
+10
+15
+04
+03
+1?
+0>
+06
+08
+#15500000
+1!
+1#
+1.
+1/
+14
+13
+0?
+16
+18
+#16000000

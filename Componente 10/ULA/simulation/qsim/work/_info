@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 10/ULA/simulation/qsim
+Eula
+Z1 w1512531272
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 cD3@N^MdoDolN5@R6?T[V1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 3BCIeZzdIHLCX<;R;K38G3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+Z9 dC:/Users/tsigb/Documents/LabVHDL/LabVHDL/Componente 10/ULA/simulation/qsim
+Z10 8ula.vho
+Z11 Fula.vho
+l0
+L37
+V0Cd5l_>oXUm<65eo[B_9`1
+!s100 ^FiF?mOlAi;G7eAkFoGBn1
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1512531274
+!i10b 1
+Z14 !s108 1512531274.000000
+Z15 !s90 -work|work|ula.vho|
+Z16 !s107 ula.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 3 ula 0 22 0Cd5l_>oXUm<65eo[B_9`1
+l162
+L47
+V8fZc6SmN3TnWRQIOlaLP>2
+!s100 GFaDmo@LN1]S`4zP<_jOV0
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eula_vhd_vec_tst
+Z19 w1512531271
+R6
+R7
+R9
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32
+VKm3Jcgf^fQF4QLG>Z;mfj2
+!s100 >OFVREDf6@nYoG_2QlDQ?1
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Aula_arch
+R6
+R7
+DEx4 work 15 ula_vhd_vec_tst 0 22 Km3Jcgf^fQF4QLG>Z;mfj2
+l51
+L34
+VUb7nMM44^K9_D]eh1fjgN1
+!s100 3S?nOeKUhcobXlCAT00bi1
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
+vula_vlg_vec_tst
+!s110 1512524211
+!i10b 1
+!s100 ;iEZBd<VIUzZEC1M8RG:A1
+IbI8OVZIn>U``Cigb;o_<<0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512524012
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512524210.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R17

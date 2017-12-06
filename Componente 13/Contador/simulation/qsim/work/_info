@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 13/Contador/simulation/qsim
+vcontadorSincrono
+!s110 1512513316
+!i10b 1
+!s100 FLzF=b62RBDl>1ckL6ToL2
+IJQ<4L=8?VngClh<OToc=51
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512513187
+8contadorSincrono.vo
+FcontadorSincrono.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512513316.000000
+!s107 contadorSincrono.vo|
+!s90 -work|work|contadorSincrono.vo|
+!i113 1
+Z3 o-work work
+ncontador@sincrono
+Econtadorsincrono
+Z4 w1512532303
+Z5 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 cD3@N^MdoDolN5@R6?T[V1
+Z6 DPx8 cyclonev 19 cyclonev_components 0 22 3BCIeZzdIHLCX<;R;K38G3
+Z7 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+Z8 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z9 DPx6 altera 11 dffeas_pack 0 22 >EJOc2K4@P4f?njWHdOcd0
+Z10 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z13 DPx6 altera 28 altera_primitives_components 0 22 14j`ZKHCzSI;]V?hmAE6_1
+Z14 dC:/Users/tsigb/Documents/LabVHDL/LabVHDL/Componente 13/Contador/simulation/qsim
+Z15 8contadorSincrono.vho
+Z16 FcontadorSincrono.vho
+l0
+L39
+V10RfWZ0CU;WdoRX@`Qahl1
+!s100 UHJ;o6m25FldhSnhQo<fH2
+Z17 OV;C;10.5b;63
+32
+Z18 !s110 1512532304
+!i10b 1
+Z19 !s108 1512532304.000000
+Z20 !s90 -work|work|contadorSincrono.vho|
+Z21 !s107 contadorSincrono.vho|
+!i113 1
+R3
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 16 contadorsincrono 0 22 10RfWZ0CU;WdoRX@`Qahl1
+l78
+L48
+V4JJLBem]5M468V_UB5g642
+!s100 ?LaZCk_[YRaAK?b9idV^10
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R3
+R22
+Econtadorsincrono_vhd_vec_tst
+Z23 w1512532301
+R11
+R12
+R14
+Z24 8Waveform.vwf.vht
+Z25 FWaveform.vwf.vht
+l0
+L32
+Vjzj:IITSWfPC3ZfHNN@;:0
+!s100 Pm[2@EM1C8jk`Me2PDV7a0
+R17
+32
+R18
+!i10b 1
+R19
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R3
+R22
+Acontadorsincrono_arch
+R11
+R12
+DEx4 work 28 contadorsincrono_vhd_vec_tst 0 22 jzj:IITSWfPC3ZfHNN@;:0
+l49
+L34
+V]LL@1=FHTE6^DHP:Tbl@g1
+!s100 oFQdgGP62dD8Q@AzhH_Cb0
+R17
+32
+R18
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R3
+R22
+vcontadorSincrono_vlg_vec_tst
+!s110 1512513336
+!i10b 1
+!s100 9A:g:iBS]<?M`hn=Yj@_[2
+IR@O2Pz>T_Ji_4dbFzg5T10
+R1
+R0
+w1512513137
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512513336.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+ncontador@sincrono_vlg_vec_tst
