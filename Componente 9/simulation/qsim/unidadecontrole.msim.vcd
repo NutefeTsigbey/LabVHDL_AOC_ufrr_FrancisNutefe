@@ -1,0 +1,597 @@
+$comment
+	File created using the following command:
+		vcd file unidadecontrole.msim.vcd -direction
+$end
+$date
+	Tue Dec 05 23:26:29 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module unidadecontrole_vhd_vec_tst $end
+$var wire 1 ! clock $end
+$var wire 1 " esc_men $end
+$var wire 1 # esc_reg $end
+$var wire 1 $ ler_men $end
+$var wire 1 % memParaReg $end
+$var wire 1 & opcode [3] $end
+$var wire 1 ' opcode [2] $end
+$var wire 1 ( opcode [1] $end
+$var wire 1 ) opcode [0] $end
+$var wire 1 * pc_flag $end
+$var wire 1 + ula_fonte $end
+$var wire 1 , ULAop [2] $end
+$var wire 1 - ULAop [1] $end
+$var wire 1 . ULAop [0] $end
+
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var wire 1 2 devoe $end
+$var wire 1 3 devclrn $end
+$var wire 1 4 devpor $end
+$var wire 1 5 ww_devoe $end
+$var wire 1 6 ww_devclrn $end
+$var wire 1 7 ww_devpor $end
+$var wire 1 8 ww_clock $end
+$var wire 1 9 ww_opcode [3] $end
+$var wire 1 : ww_opcode [2] $end
+$var wire 1 ; ww_opcode [1] $end
+$var wire 1 < ww_opcode [0] $end
+$var wire 1 = ww_ler_men $end
+$var wire 1 > ww_esc_men $end
+$var wire 1 ? ww_memParaReg $end
+$var wire 1 @ ww_ULAop [2] $end
+$var wire 1 A ww_ULAop [1] $end
+$var wire 1 B ww_ULAop [0] $end
+$var wire 1 C ww_esc_reg $end
+$var wire 1 D ww_ula_fonte $end
+$var wire 1 E \pc_flag~input_o\ $end
+$var wire 1 F \pc_flag~output_o\ $end
+$var wire 1 G \ler_men~output_o\ $end
+$var wire 1 H \esc_men~output_o\ $end
+$var wire 1 I \memParaReg~output_o\ $end
+$var wire 1 J \ULAop[0]~output_o\ $end
+$var wire 1 K \ULAop[1]~output_o\ $end
+$var wire 1 L \ULAop[2]~output_o\ $end
+$var wire 1 M \esc_reg~output_o\ $end
+$var wire 1 N \ula_fonte~output_o\ $end
+$var wire 1 O \clock~input_o\ $end
+$var wire 1 P \opcode[1]~input_o\ $end
+$var wire 1 Q \opcode[0]~input_o\ $end
+$var wire 1 R \opcode[2]~input_o\ $end
+$var wire 1 S \opcode[3]~input_o\ $end
+$var wire 1 T \ULAop~0_combout\ $end
+$var wire 1 U \esc_men~0_combout\ $end
+$var wire 1 V \ULAop[0]~reg0_q\ $end
+$var wire 1 W \ULAop~1_combout\ $end
+$var wire 1 X \ULAop[1]~reg0_q\ $end
+$var wire 1 Y \ULAop~2_combout\ $end
+$var wire 1 Z \ULAop[2]~reg0_q\ $end
+$var wire 1 [ \Equal4~0_combout\ $end
+$var wire 1 \ \ula_fonte~reg0_q\ $end
+$var wire 1 ] \ALT_INV_opcode[1]~input_o\ $end
+$var wire 1 ^ \ALT_INV_opcode[0]~input_o\ $end
+$var wire 1 _ \ALT_INV_opcode[2]~input_o\ $end
+$var wire 1 ` \ALT_INV_opcode[3]~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x*
+0+
+0/
+10
+x1
+12
+13
+14
+15
+16
+17
+08
+0=
+0>
+1?
+0C
+0D
+xE
+1F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+1U
+0V
+1W
+0X
+0Y
+0Z
+0[
+0\
+1]
+1^
+1_
+1`
+0&
+0'
+0(
+0)
+09
+0:
+0;
+0<
+0@
+0A
+0B
+0,
+0-
+0.
+$end
+#500000
+1!
+1*
+18
+1E
+1O
+1X
+1K
+1A
+1-
+#1000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#1500000
+1!
+1*
+18
+1E
+1O
+#2000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#2500000
+1!
+1*
+18
+1E
+1O
+#3000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#3500000
+1!
+1*
+18
+1E
+1O
+#4000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#4500000
+1!
+1*
+18
+1E
+1O
+#5000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#5500000
+1!
+1*
+18
+1E
+1O
+#6000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#6500000
+1!
+1*
+18
+1E
+1O
+#7000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#7500000
+1!
+1*
+18
+1E
+1O
+#8000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#8500000
+1!
+1*
+18
+1E
+1O
+#9000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#9500000
+1!
+1*
+18
+1E
+1O
+#10000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#10500000
+1!
+1*
+18
+1E
+1O
+#11000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#11500000
+1!
+1*
+18
+1E
+1O
+#12000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#12500000
+1!
+1*
+18
+1E
+1O
+#13000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#13500000
+1!
+1*
+18
+1E
+1O
+#14000000
+0!
+x*
+0&
+0'
+0(
+0)
+08
+0<
+0;
+0:
+09
+xE
+0S
+0R
+0P
+0Q
+0O
+1^
+1]
+1_
+1`
+1U
+#14500000
+1!
+1*
+18
+1E
+1O
+#15000000
+0!
+x*
+1&
+1'
+1(
+1)
+08
+1<
+1;
+1:
+19
+xE
+1S
+1R
+1P
+1Q
+0O
+0^
+0]
+0_
+0`
+0U
+#15500000
+1!
+1*
+18
+1E
+1O
+#16000000
